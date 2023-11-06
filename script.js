@@ -1,4 +1,4 @@
-  function ativaLetra(elemento) {
+ function ativaLetra(elemento) {
     const arrTexto = elemento.innerHTML.split('');
     elemento.innerHTML = '';
     arrTexto.forEach((letra, i) => {
